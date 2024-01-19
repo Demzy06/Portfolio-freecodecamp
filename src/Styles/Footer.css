@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+/* Footer */
+.footer_container{
+  background-color:#303841;
+  height: 93vh;
+}
+footer{
+  width: 100%;
+  height: 100%;
+}
+.dev_info{
+  height: fit-content;
+}
+.dev_info>h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+.dev_info>p{
+  font-family: 'Poppins', sans-serif;
+}

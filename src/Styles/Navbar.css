@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+/* Navbar */
+.Nav{
+  position: fixed;
+  width: 100%;
+}
+nav{
+  background-color: #be3144;
+  height: 3rem;
+  width: 100%;
+  padding: 0px 0rem 0px 0rem;
+}
+li{
+  font-size: large;
+}
