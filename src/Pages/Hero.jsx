@@ -16,6 +16,7 @@ const Hero = () => {
   const mapLink = 'https://codepen.io/freeCodeCamp/full/mVEJag'
   const wikipediaLink = 'https://codepen.io/freeCodeCamp/full/wGqEga';
   const ticLink = 'https://codepen.io/freeCodeCamp/full/KzXQgy';
+  const showMoreLink ='https://codepen.io/FreeCodeCamp/';
   return (
     <div className='body' id='hero'>
       <main>
@@ -99,7 +100,10 @@ const Hero = () => {
           </div>
 
             <div className='show btn-dark d-flex justify-content-center align-items-center'>
-              Show all
+
+              <Link to={showMoreLink} className='text-decoration-none text-light'>Show all 
+              <i class="fa-solid fa-chevron-right fa-beat chevarrow ps-2"></i>
+              </Link>
              </div>
 
 

@@ -1,5 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Signika+Negative&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
 /* work section */
@@ -31,6 +31,7 @@
 img{
   width: 100%;
   height: fit-content;
+  object-fit: cover;
   margin: auto;
 }
 
@@ -47,9 +48,15 @@ button{
 .show{
   background-color: #303841;
   color: white;
-  width: 25%;
-  height: 2rem;
+  width: 35%;
+  height: 2.8rem;
   margin: auto;
+  font-size: 17px;
+  font-style: normal;
+  font-family: '', sans-serif;
   
+}
+.chevarrow{
+  color: white;
 }
 
