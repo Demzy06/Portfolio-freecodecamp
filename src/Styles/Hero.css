@@ -30,7 +30,7 @@
 }
 img{
   width: 100%;
-  height: fit-content;
+  height: calc(100% - 6.8rem);
   object-fit: cover;
   margin: auto;
 }
